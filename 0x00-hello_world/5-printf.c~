@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+ * main - prints string to console.
+ *
+ * output - variable that stores string
+ *
+ * Return: string
+ */
+int main(void)
+{
+char *output() = "with proper grammar,
+but the outcome is a piece of art,";
+
+printf(output);
+return (0);
+}
