@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 	unsigned long int prev = 1, curr = 1, next;
-	unsigned long int prevH, prevL, currH, currL, nextH, nextL;
+	unsigned long int prevH, prevL, currH, currL; /*nextH, nextL;*/
 
 	printf("%lu", curr);
 	for (i = 1; i < 91; i++)
@@ -23,18 +23,22 @@ int main(void)
 	prevL = (prev % 1000000000);
 	currH = (curr / 1000000000);
 	currL = (curr % 1000000000);
-	/*nextH = prevH + currH;*/
-	/*nextL = prevL + currL;*/
 
 	for (i = 92; i < 99; i++)
 	{
-		nextH = prevH + currH;
-		nextL = prevL + currL;
-		printf(", %lu%lu", nextH, nextL);
+		/*nextH = prevH + currH;
+		nextL = prevL + currL;*/
+		printf(", %lu", currH + (currL / 1000000000));
+		printf("%lu", currL % 1000000000);
+		currH = currH + prevH;
+		prevH = currH - prevH;
+		currL = currL + prevL;
+		prevL = currL - prevL;
+		/*printf(", %lu%lu", nextH, nextL);
 		prevH = currH;
 		prevL = currL;
 		currH = nextH;
-		currL = nextL;
+		currL = nextL;*/
 	}
 	printf("\n");
 
