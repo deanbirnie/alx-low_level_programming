@@ -26,8 +26,8 @@ int main(void)
 
 	for (i = 92; i < 99; i++)
 	{
-		nextH = prevH + currH;
-		nextL = prevL + currL;
+		nextH = (prevH + currH) / 10;
+		nextL = (prevL + currL) % 100000000000;
 		printf(", %lu@%lu@", nextH, nextL);
 		prevH = currH;
 		prevL = currL;
