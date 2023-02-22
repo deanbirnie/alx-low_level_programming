@@ -28,7 +28,7 @@ int main(void)
 	{
 		nextH = prevH + currH;
 		nextL = prevL + currL;
-		printf(", %lu%lu", nextH, nextL);
+		printf(", %lu@%lu@", nextH, nextL);
 		prevH = currH;
 		prevL = currL;
 		currH = nextH;
