@@ -7,21 +7,22 @@
  */
 int main(void)
 {
-	int i, prev = 0, curr = 1, next;
+	int i;
+	long int prev = 0, curr = 1, next;
 
 	for (i = 0; i < 50; i++)
 	{
 		if (i < 49)
 		{
 			next = prev + curr;
-			printf("%d, ", next);
+			printf("%ld, ", next);
 			prev = curr;
 			curr = next;
 		}
 		else
 		{
 			next = prev + curr;
-			printf("%d\n", next);
+			printf("%ld\n", next);
 		}
 	}
 
