@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	long int prev = 0, curr = 1, next;
+	long int prev = 1, curr = 1, next;
 	long int prevH, prevL, currH, currL, nextH, nextL;
 
 	printf("%lu", curr);
@@ -20,10 +20,10 @@ int main(void)
 		curr = next;
 	}
 
-	prevH = (prev / 1000000);
-	prevL = (prev % 1000000);
-	currH = (curr / 1000000);
-	currL = (curr % 1000000);
+	prevH = (prev / 100000);
+	prevL = (prev % 100000);
+	currH = (curr / 100000);
+	currL = (curr % 100000);
 
 	for (i = 90; i <= 98; i++)
 	{
