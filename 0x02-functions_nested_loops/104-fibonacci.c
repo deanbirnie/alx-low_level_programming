@@ -25,7 +25,7 @@ int main(void)
 	currH = (curr / 100000);
 	currL = (curr % 100000);
 
-	for (i = 90; i <= 98; i++)
+	for (i = 90; i < 98; i++)
 	{
 		nextH = (prevH + currH);
 		nextL = (prevL + currL);
