@@ -12,28 +12,25 @@ int main(void)
 	long int prevH, prevL, currH, currL, nextH, nextL;
 
 	printf("%lu", curr);
-	for (i = 1; i < 90; i++)
+	for (i = 0; i < 92; i++)
 	{
 		next = prev + curr;
 		printf(", %ld", next);
 		prev = curr;
 		curr = next;
 	}
+	nextH = (prev / 1000000);
+	nextL = (prev % 1000000);
 
-	prevH = (prev / 100000);
-	prevL = (prev % 100000);
-	currH = (curr / 100000);
-	currL = (curr % 100000);
-
-	for (i = 90; i < 98; i++)
+	for (i = 91; i < 98; i++)
 	{
-		nextH = (prevH + currH);
-		nextL = (prevL + currL);
 		printf(", %lu%lu", nextH, nextL);
 		prevH = currH;
 		prevL = currL;
 		currH = nextH;
 		currL = nextL;
+		nextH = prevH + currH;
+		nextL = prevL + currL;
 	}
 	printf("\n");
 
