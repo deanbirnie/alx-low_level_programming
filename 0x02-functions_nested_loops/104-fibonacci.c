@@ -19,9 +19,9 @@ int main(void)
 		prev = curr;
 		curr = next;
 	}
-	prevH = (prev / 10000000000);
+	prevH = (prev / 1000000000);
 	prevL = (prev % 100000000000);
-	currH = (curr / 10000000000);
+	currH = (curr / 1000000000);
 	currL = (curr % 100000000000);
 
 	for (i = 92; i < 99; i++)
