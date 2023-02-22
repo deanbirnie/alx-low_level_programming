@@ -19,16 +19,16 @@ int main(void)
 		prev = curr;
 		curr = next;
 	}
-	prevH = (prev / 1000000000);
+	prevH = (prev / 10000000000);
 	prevL = (prev % 10000000000);
-	currH = (curr / 1000000000);
+	currH = (curr / 10000000000);
 	currL = (curr % 10000000000);
 
 	for (i = 92; i < 99; i++)
 	{
 		nextH = (prevH + currH) / 100;
 		nextL = (prevL + currL) % 100000000000;
-		printf(", %lu@%lu@", nextH, nextL);
+		printf(", %lu%lu", nextH, nextL);
 		prevH = currH;
 		prevL = currL;
 		currH = nextH;
