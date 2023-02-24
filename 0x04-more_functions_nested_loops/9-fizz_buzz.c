@@ -3,8 +3,9 @@
 /**
  * main - Entry point
  *
+ * Return: 0 (success)
  */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -26,8 +27,17 @@ void main(void)
 
 		else
 		{
-			printf("%d", i);
+			if (i != 1)
+			{
+				printf(" %d", i);
+			}
+			else
+			{
+				printf("%d", i);
+			}
 		}
 	}
 	putchar('\n');
+
+	return (0);
 }
