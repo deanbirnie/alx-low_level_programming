@@ -13,6 +13,7 @@ This project focusses on the following concepts:
 I have found the following resources to be particularly useful for this project (as well as the concepts listed in the section above):
 
 - [Loops vs Recursion - Computerphile Video](https://www.youtube.com/watch?v=HXNhEYqFo0o&list=TLPQMDgwMzIwMjOvuYgZlP9GWg&index=2)
+- [Assignment Operators in C](https://www.geeksforgeeks.org/assignment-operators-in-c-c/)
 
 ## Tasks:
 
