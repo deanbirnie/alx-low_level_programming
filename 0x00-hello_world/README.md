@@ -6,15 +6,15 @@ This project covers the intro to programming in C. We learn the basic structure 
 
 This project focusses on the following concepts:
 
- - Concept 1
- - Concept 2
+ - Introduction to C Programming
 
 ## Resources:
 
 I have found the following resources to be particularly useful for this project (as well as the concepts listed in the section above):
 
- - [Name](URL)
- - [Name2](URL)
+ - [Everything you need to know to start with C](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230309T093401Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=57b44defc5aec129b2f8f478d2673ec1fb20dd192f33c49ad969cd6248aaad79)
+ - [Learning to Program in C - Part 1](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
+ - [Learning to Program in C - Part 2](https://www.youtube.com/watch?v=FwpP_MsZWnU)
 
 ## Tasks:
 
