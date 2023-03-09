@@ -23,7 +23,8 @@ The following is a breakdown of all of the tasks for this project. The actual in
 
 ### Task 0 - Preprocessor
 [0-preprocessor](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
-Overview:
+
+Overview:\n
 Here we start learning about the different stages within the compilation process. In this task we must write a script that runs a C file through the preprocessor and saves the output to a new file.
 
 ### Task 1 - Compiler
