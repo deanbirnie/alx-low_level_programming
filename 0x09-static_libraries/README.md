@@ -29,6 +29,8 @@ Here we use the `ar` command to create the archive `libmy.a` using any .o file i
 
 Finally, the archive file needs to be indexed. This is used by the compiler to speed up symbol-lookupinside the library and to make sure that the order of the symbols in the library won't matter during compilation.
 
+`ranlib libmy.a`
+
 ### Task 1 Static Library Creation Script
 
 Overview:
