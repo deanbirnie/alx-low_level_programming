@@ -3,6 +3,4 @@
 
 int _putchar(void);
 
-void print_name(int argc, char* argv[]);
-
 #endif
