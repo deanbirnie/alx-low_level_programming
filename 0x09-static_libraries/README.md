@@ -27,4 +27,10 @@ Now that we have all necessary files, we need to archive these files.
 
 Here we use the `ar` command to create the archive `libmy.a` using any .o file in the current directory. The `r` flag replaces older object files in the library with new object files. The `c` flag tells `ar` to create the library if it doesn't already exist.
 
-### Task 1
+Finally, the archive file needs to be indexed. This is used by the compiler to speed up symbol-lookupinside the library and to make sure that the order of the symbols in the library won't matter during compilation.
+
+### Task 1 Static Library Creation Script
+
+Overview:
+
+Create a script that follows the steps outlined in task 0 in order to create a static library called `liball.a` from all `.c` files in the current directory.
