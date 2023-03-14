@@ -1,4 +1,4 @@
-\0;10;1c# ALX Low Level Programming
+# ALX Low Level Programming
 
 This repository will hold all of the projects for this part of the curriculum. The curriculum for the first trimester focuses on "low level programming" which primarily involves the C programming language and dives into it's many components, including but not limited to; functions, pointers, data structures, bit manipulation, memory management, etc.
 
