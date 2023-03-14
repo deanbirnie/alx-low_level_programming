@@ -1,4 +1,4 @@
-# ALX Low Level Programming
+\0;10;1c# ALX Low Level Programming
 
 This repository will hold all of the projects for this part of the curriculum. The curriculum for the first trimester focuses on "low level programming" which primarily involves the C programming language and dives into it's many components, including but not limited to; functions, pointers, data structures, bit manipulation, memory management, etc.
 
@@ -17,3 +17,6 @@ The following projects can be found in this repository. Each project has it's ow
  - [0x06-pointers_arrays_strings](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
  - [0x07-pointers_arrays_strings](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
  - [0x08-recursion](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x08-recursion)
+ - [0x09-static_libraries](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x09-static_libraries)
+ - [0x0A-argc_argv](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x0A-argc_argv)
+ - [0x0B-malloc_free](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x0B-malloc_free)
