@@ -31,12 +31,6 @@ Finally, the archive file needs to be indexed. This is used by the compiler to s
 
 `ranlib libmy.a`
 
-### Task 1 Static Library Creation Script
-
-Overview:
-
-Create a script that follows the steps outlined in task 0 in order to create a static library called `liball.a` from all `.c` files in the current directory.
-
 ### Task 1 - Without libraries what have we? We have no past and no future
 
 [create_static_lib.sh](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh)
