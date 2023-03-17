@@ -28,7 +28,7 @@ Overview:
 
 In most projects, we often give you only one main file to test with. For example, this main file is a test for a postitive_or_negative() function similar to the one you worked with in an earlier C project:
 
-`#include "main.h"
+```#include "main.h"
 
 /**
 * main - tests function that prints if integer is positive or negative
@@ -43,18 +43,18 @@ int main(void)
         positive_or_negative(i);
 
         return (0);
-}`
+}```
 
 main.h file:
 
-`#ifndef MAIN_H
+```#ifndef MAIN_H
 #define MAIN_H
 
 #include <stdio.h>
 
 void positive_or_negative(int i);
 
-#endif /* MAIN_H */`
+#endif /* MAIN_H */```
 
 Based on the main.c file above, create a file named 0-main.c. This file must test that the function positive_or_negative() gives the correct output when given a case of 0.
 
@@ -68,7 +68,7 @@ Overview:
 
 Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 
-`#include <stdio.h>
+```#include <stdio.h>
 
 /**
 * main - causes an infinite loop
@@ -91,7 +91,7 @@ int main(void)
         printf("Infinite loop avoided! \\o/\n");
 
         return (0);
-}`
+}```
 
 ### Task 2 - 0 > 972?
 
@@ -101,7 +101,7 @@ Overview:
 
 This program prints the largest of three integers.
 
-`#include <stdio.h>
+```#include <stdio.h>
 #include "main.h"
 
 /**
@@ -123,9 +123,9 @@ int main(void)
         printf("%d is the largest number\n", largest);
 
         return (0);
-}`
+}```
 
-`#include "main.h"
+```#include "main.h"
 
 /**
  * largest_number - returns the largest of 3 numbers
@@ -153,7 +153,7 @@ int largest_number(int a, int b, int c)
     }
 
     return (largest);
-}`
+}```
 
 ? That’s definitely not right.
 
@@ -167,7 +167,7 @@ Overview:
 
 This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
 
-`#include <stdio.h>
+```#include <stdio.h>
 #include "main.h"
 
 /**
@@ -193,9 +193,9 @@ int main(void)
     print_remaining_days(month, day, year);
 
     return (0);
-}`
+}```
 
-`#include "main.h"
+```#include "main.h"
 
 /**
 * convert_day - converts day of month to day of year, without accounting
@@ -246,9 +246,9 @@ int convert_day(int month, int day)
             break;
     }
     return (day);
-}`
+}```
 
-`#include <stdio.h>
+```#include <stdio.h>
 #include "main.h"
 
 /**
@@ -284,22 +284,22 @@ void print_remaining_days(int month, int day, int year)
             printf("Remaining days: %d\n", 365 - day);
         }
     }
-}`
+}```
 
-`carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
+```carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
 carrie@ubuntu:/debugging$ ./3-main_a
 Date: 04/01/1997
 Day of the year: 91
 Remaining days: 274
-carrie@ubuntu:/debugging$`
+carrie@ubuntu:/debugging$```
 
 Output looks good for 04/01/1997! Let’s make a new main file 3-main_b.c to try a case that is a leap year: 02/29/2000.
 
-`carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b 
+```carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b 
 carrie@ubuntu:/debugging$ ./3-main_b
 Date: 02/29/2000
 Invalid date: 02/29/2000
-carrie@ubuntu:/debugging$`
+carrie@ubuntu:/debugging$```
 
 ? That doesn’t seem right.
 
