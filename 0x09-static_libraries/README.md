@@ -7,7 +7,7 @@
 ## Resources:
 
  - [Building and Using Static and Shared C Libraries](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
- - [Difference between Dynamic and Static Libraries](https://www.youtube.com/watch?v=eW5he5uFBNM)
+ - [Difference between Dynamic and Static Libraries (stop at 4:44)](https://www.youtube.com/watch?v=eW5he5uFBNM)
 
 ## Tasks:
 
@@ -36,3 +36,11 @@ Finally, the archive file needs to be indexed. This is used by the compiler to s
 Overview:
 
 Create a script that follows the steps outlined in task 0 in order to create a static library called `liball.a` from all `.c` files in the current directory.
+
+### Task 1 - Without libraries what have we? We have no past and no future
+
+[create_static_lib.sh](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh)
+
+Overview:
+
+Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.
