@@ -20,3 +20,5 @@ The following projects can be found in this repository. Each project has it's ow
  - [0x09-static_libraries](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x09-static_libraries)
  - [0x0A-argc_argv](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x0A-argc_argv)
  - [0x0B-malloc_free](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x0B-malloc_free)
+ - [0x0C-more_malloc_free](https://github.com/deanbirnie/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
+ 
