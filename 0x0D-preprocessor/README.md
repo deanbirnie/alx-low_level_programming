@@ -25,10 +25,25 @@ I have found the following resources to be particularly useful for this project 
 
 The following is a breakdown of all of the tasks for this project. The actual instructions for each task can be found on the relevant project page on the ALX SE Intranet, however, sharing that information is prohibited. I have therefore given a brief description of what each entails, what the code does and in some cases, I have included some extra information for context and learning (particularly the more advanced topics).
 
-### Task 0
+### Task 0 - Object-like Macro
 
 [0-object_like_macro.h](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x0D-preprocessor/0-object_like_macro.h)
 
 Overview:
 
 Create a header file that defines a macro named SIZE as an abbreviation for the token 1024. Naming of the file for the include guard should be `OBJECT_LIKE_MACRO_H_` (always capitalised).
+
+### Task 1 - Pi
+
+[1-pi.h](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x0D-preprocessor/1-pi.h)
+
+Overview:
+
+Create a header file that defines a macro named SIZE as an abbreviation for the token 1024. Naming of the file for the include guard should be `PI_H_` (always capitalised).
+
+### Task 2 - File name
+
+[]()
+
+Overview:
+
