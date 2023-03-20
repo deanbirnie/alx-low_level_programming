@@ -43,7 +43,19 @@ Create a header file that defines a macro named SIZE as an abbreviation for the 
 
 ### Task 2 - File name
 
-[]()
+[2-main.c](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x0D-preprocessor/2-main.c)
 
 Overview:
+
+Write a program that prints the name of the file it was compiled from, followed by a new line.
+
+ - You are allowed to use the standard library.
+
+### Task 3 - Function-like Macro
+
+[3-function_like_macro.h](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x0D-preprocessor/3-function_like_macro.h)
+
+Overview:
+
+Write a function-like macro ABS(x) that computes the absolute value of a number x. Named as `FUNCTION_LIKE_MACRO_H_` in header include guard (always capitalised).
 
