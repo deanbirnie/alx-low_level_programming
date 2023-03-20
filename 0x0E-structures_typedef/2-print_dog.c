@@ -1,27 +1,22 @@
 #include "dog.h"
 #include <stdio.h>
-#include <stdlib.h>
+
+#define NILL "(nill)"
 
 /**
  * print_dog - prints a struct dog
  *
  * @d: struct dog passed to function
+ *
+ * Return: nothing
  */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
-	{
 		return;
-	}
 	if (d->name == NULL)
-	{
-		d->name = "(nill)";
-	}
+		d->name = NILL;
 	if (d->owner == NULL)
-	{
-		d->owner = "(nill)";
-	}
-	printf("Name: %s\n", d->name);
-	printf("Age: %f\n", d->age);
-	printf("Owner: %s\n", d->owner);
+		d->owner = NILL;
+	printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
 }
