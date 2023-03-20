@@ -59,3 +59,10 @@ Overview:
 
 Write a function-like macro ABS(x) that computes the absolute value of a number x. Named as `FUNCTION_LIKE_MACRO_H_` in header include guard (always capitalised).
 
+### Task 4 - SUM
+
+[4-sum.h](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x0D-preprocessor/4-sum.h)
+
+Overview:
+
+Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
