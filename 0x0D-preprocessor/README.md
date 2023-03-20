@@ -20,6 +20,8 @@ I have found the following resources to be particularly useful for this project 
  - [Standard Predefined Macros](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Standard-Predefined-Macros.html#Standard-Predefined-Macros)
  - [include guard](https://en.wikipedia.org/wiki/Include_guard)
  - [Common Predefined Macros](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Common-Predefined-Macros.html#Common-Predefined-Macros)
+ - [Macros and its types in C](https://www.geeksforgeeks.org/macros-and-its-types-in-c-cpp/)
+ - [Function-like Macros in C](https://stackoverflow.com/questions/15575485/function-like-macros-in-c)
 
 ## Tasks:
 
