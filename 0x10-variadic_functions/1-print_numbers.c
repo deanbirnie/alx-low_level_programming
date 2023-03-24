@@ -3,7 +3,7 @@
 /**
  * print_numbers - prints numbers passed to the function
  *
- * @seaparator: separator for each number printed
+ * @separator: separator for each number printed
  * @n: number of numbers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
