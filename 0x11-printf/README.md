@@ -1,11 +1,12 @@
 # 0x11. C - printf
 
-In this project we attempt to create our own version of the `printf` function.
+For this project, we are required to work in pairs and as such, a separate repository has been created.
 
-## Concepts:
+The repository can be found below:
 
-## Resources:
+[printf Repository](https://github.com/deanbirnie/printf)
 
-## Tasks:
+## Collaborators:
 
-### Task 0
+ - Dean Birnie
+ - Michael Robson
