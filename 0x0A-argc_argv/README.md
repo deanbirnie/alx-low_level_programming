@@ -78,6 +78,8 @@ Write a program that adds positive numbers.
  - If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
  - You can assume that numbers and the addition of all the numbers can be stored in an int
 
+### Advanced Tasks:
+
 ### Task 5 - Minimal Number of Coins for Change
 
 [100-change.c](https://github.com/deanbirnie/alx-low_level_programming/blob/master/0x0A-argc_argv/100-change.c)
