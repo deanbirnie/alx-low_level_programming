@@ -96,7 +96,7 @@ Write a function that prints `You're beat! and yet, you must allow,\nI bore my h
 
 Explanation:
 
- - [__attribute__((constructor))](https://www.geeksforgeeks.org/__attribute__constructor-__attribute__destructor-syntaxes-c/)
+ - [`__attribute__((constructor))`](https://www.geeksforgeeks.org/__attribute__constructor-__attribute__destructor-syntaxes-c/)
 
 One permissable way to execute code before the `main` function in C (for this project we cannot use global variables), is to use `__attribute__((constructor))` which effectively tells the compiler that this specific piece of code needs to be executed first. See also `__attribute__((destructor))` in the link above which executes code last or after the `main` function.
 
