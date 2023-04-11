@@ -78,7 +78,7 @@ $ ./crackme3
 The output is something along the lines of:
 
 ```
-Usage: ./crackme3 _password_
+Usage: ./crackme3 password
 ```
 
 This tells us how we are expected to input our password.
