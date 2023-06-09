@@ -4,3 +4,6 @@ _putchar.c
 
 # ignore crackme3 file
 crackme3
+
+# ignore .dat files temporarily
+*.dat
