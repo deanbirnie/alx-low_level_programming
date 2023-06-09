@@ -6,3 +6,5 @@ _putchar.c
 # Blocking old directory and unwanted files temporarily
 *.c
 *.o
+math.h
+*.py
