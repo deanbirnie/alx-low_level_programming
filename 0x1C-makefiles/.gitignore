@@ -1,0 +1,5 @@
+# ignore emacs temporary files
+*~
+
+# ignore files provided by ALX
+*main.c
