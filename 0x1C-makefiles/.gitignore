@@ -2,5 +2,7 @@
 *~
 
 # ignore files provided by ALX
-*main.c
-0x1B.c/
+a.out
+main.c
+m.h
+school.c
