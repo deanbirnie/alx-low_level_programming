@@ -14,9 +14,5 @@ NAME = school
 school: $(OBJ)
 	$(CC) $(OBJ) -o school
 
-# Rule to generate object files from source files
-%.o: %.c
-	$(CC) -c $< -o $@
-
 # Default rule to build the executable
 all: school
