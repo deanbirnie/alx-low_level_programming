@@ -1,6 +1,15 @@
+# Compile to be used
 CC = gcc
+
+# source files (.c)
 SRC = main.c school.c
+
+# object files from C source files
 OBJ = $(SRC:.c=.o)
+
+# name of the executable
 NAME = school
+
+# Target and depenedencies with rule to build executable
 all: $(OBJ)
-	$(CC) $(OBJ) -o school
+	$(CC) $(OBJ) -o $(NAME)
