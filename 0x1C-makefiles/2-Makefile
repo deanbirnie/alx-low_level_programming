@@ -1,18 +1,7 @@
-# compiler to be used
 CC = gcc
-
-# The source files (.c)
 SRC = main.c school.c
-
-# The object files (.o)
 OBJ = $(SRC:.c=.o)
-
-# Name of the executable
 NAME = school
-
-# Target and its dependencies
 school: $(OBJ)
 	$(CC) $(OBJ) -o school
-
-# Default rule to build the executable
 all: school
