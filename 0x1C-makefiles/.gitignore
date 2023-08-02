@@ -6,3 +6,7 @@ a.out
 main.c
 m.h
 school.c
+*.o
+
+# ignore school exectuable
+school
