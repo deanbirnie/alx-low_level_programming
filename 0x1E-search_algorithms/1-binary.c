@@ -1,15 +1,19 @@
 #include "search_algos.h"
 
 /**
+ * print_array - prints the arrays in which the function has searched with
+ * the required formatting
  *
+ * @array: pointer to the first element of the array to search in
+ * @size: number of elements in the array
  */
 void print_array(int *array, size_t size)
 {
-        size_t i;
+	size_t i;
 
-        printf("Searching in array: ");
-        for (i = 0; i < size; ++i)
-        {
+	printf("Searching in array: ");
+	for (i = 0; i < size; ++i)
+	{
 		if (i == 0)
 		{
 			printf("%d", array[i]);
@@ -17,8 +21,8 @@ void print_array(int *array, size_t size)
 		{
 			printf(", %d", array[i]);
 		}
-        }
-        printf("\n");
+	}
+	printf("\n");
 }
 
 /**
